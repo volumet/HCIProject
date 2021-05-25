@@ -1,0 +1,46 @@
+
+.title {
+    padding: 10px 0 10px 0;
+    border-bottom: 1px solid gainsboro;
+    margin-bottom: 20px;
+    margin-top: 140px;
+    font-size: 50px;
+    font-family: "Corbel Light", serif;
+    color: #E6DEDD;
+}
+
+.txtUsername {
+    background-color: transparent !important;
+    color: #E6DEDD !important;
+    font-family: "Corbel Light", serif;
+}
+
+.txtPassword {
+    background-color: transparent !important;
+    color: #E6DEDD !important;
+    font-family: "Corbel Light", serif;
+}
+
+.label {
+    margin-right: 20px;
+    color: #E6DEDD;
+    font-size: 18px !important;
+    font-family: "Corbel Light", serif;
+}
+
+.prepend {
+    /*background-color: #ABABAB;*/
+}
+
+.test {
+    position: relative;
+    left: 10px;
+    top: 10px;
+    color: aliceblue;
+}
+
+.loginButton {
+    border-color: #E6DEDD !important;
+    color: #E6DEDD !important;
+    font-family: "Corbel Light", serif;
+}

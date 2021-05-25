@@ -1,0 +1,47 @@
+.removeNavPadding {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.sideBar {
+    background-color: #E9633B;
+}
+
+.footer {
+    /*border-top: 1px solid #E6DEDD !important;*/
+    background-color: #221E1D;
+}
+
+.paddingFooter {
+    padding: 10px 20px 10px 20px;
+}
+
+.footerText {
+    color: #E6DEDD;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.containWrap {
+    flex: 1;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+@media only screen and (min-width: 1500px) {
+    .sideBar {
+        height: 100vh;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    .summaryBackground {
+        height: 100vh;
+    }
+}

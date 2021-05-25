@@ -1,0 +1,23 @@
+.footerTitle {
+    font-size: 25px;
+    color: #E9633B;
+}
+
+.contributorsBullet {
+    list-style-type: square;
+}
+
+.credit {
+    margin-top: 5px;
+    border-top: 1px solid #E6DEDD;
+}
+
+.footerContent {
+    font-size: 14px;
+}
+
+@media only screen and (max-width: 720px) {
+    .hideOnMobile {
+        display: none !important;
+    }
+}

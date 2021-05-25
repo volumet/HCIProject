@@ -1,0 +1,22 @@
+.logo {
+    margin-top: 10px;
+    width: 60%;
+    height: 60%;
+}
+
+.headerTitle {
+    font-size: 30px;
+    margin-top: 25px;
+}
+
+.headerLightColor {
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: #221E1D;
+}
+
+@media only screen and (max-width: 720px) {
+    .orientationOnMobile {
+        flex-direction: row !important;
+    }
+}
