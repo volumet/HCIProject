@@ -4,7 +4,10 @@ import {
     faLock,
     faUserGraduate,
     faUsers,
-    faSearch
+    faSearch,
+    faEye,
+    faPencilAlt,
+    faTrash
 } from '@fortawesome/free-solid-svg-icons'
 export const loadIcons = () => {
     library.add(
@@ -12,6 +15,9 @@ export const loadIcons = () => {
         faLock,
         faUserGraduate,
         faUsers,
-        faSearch
+        faSearch,
+        faEye,
+        faPencilAlt,
+        faTrash
     )
 }

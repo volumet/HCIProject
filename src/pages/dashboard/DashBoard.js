@@ -8,6 +8,7 @@ import Switch from "react-bootstrap/Switch";
 import {Route} from "react-router";
 import SummarySession from "./workspace/summary/SummarySession";
 import Footer from "./footer/Footer";
+import ManageUser from "./workspace/manageusers/ManageUser";
 
 class DashBoard extends Component {
     render() {
@@ -29,6 +30,9 @@ class DashBoard extends Component {
                                     <Col xl={10} className="summaryBackground">
                                         <Route exact path="/">
                                             <SummarySession/>
+                                        </Route>
+                                        <Route exact path="/manageUser">
+                                            <ManageUser/>
                                         </Route>
                                     </Col>
                                 </Row>

@@ -1,6 +1,6 @@
 import {Component} from "react";
 import {Button} from "react-bootstrap";
-import "../../../../style/pages/dashboard/workspace/summary/SummaryUser.css"
+import "../../../../style/pages/dashboard/workspace/summary/SummaryGroup.css"
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
 class SummaryGroups extends Component {
@@ -8,7 +8,7 @@ class SummaryGroups extends Component {
         return (
             <div>
                 <a href="/">
-                    <Button variant="outline-dark" className="btnUsersShow">
+                    <Button variant="outline-dark" className="btnGroupsShow">
                         <FontAwesomeIcon icon="users" size="3x"/> <br/>
                         Current Groups: &nbsp;
                         <span style={{

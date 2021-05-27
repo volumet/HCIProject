@@ -12,12 +12,12 @@ class Navigation extends Component {
                     <Nav className="navigation">
                         <Row>
                             <Col xl={12}>
-                                <Nav.Link href="/" disabled="true" active>
+                                <Nav.Link href="/" active>
                                     <p className="text-semi-bold first-element second-element">
                                         Dash Board
                                     </p>
                                 </Nav.Link>
-                                <Nav.Link disabled="true">
+                                <Nav.Link href="/manageUser">
                                     <p className="text-semi-bold second-element">
                                         Manage Users
                                     </p>

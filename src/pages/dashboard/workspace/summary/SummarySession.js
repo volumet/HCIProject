@@ -7,7 +7,7 @@ import SummaryGroups from "./SummaryGroups";
 class SummarySession extends Component {
     render() {
         return (
-            <div className="summaryBackground">
+            <div>
                 <Row className="generalInfo">
                     <Col xl={1}/>
                     <Col xl={5}>

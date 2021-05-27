@@ -40,8 +40,12 @@ body {
     }
 }
 
-@media only screen and (max-width: 720px) {
+@media only screen and (min-width: 1500px) {
     .summaryBackground {
         height: 100vh;
     }
+}
+
+.summaryBackground {
+    background-color: #FFFFFF;
 }
